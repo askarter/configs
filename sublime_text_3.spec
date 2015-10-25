@@ -74,3 +74,4 @@ find %{buildroot} -not -type d -printf "\"/%%P\"\n" | sed '/\/man\//s/$/\*/' > m
 %changelog
 * Mon Jun 15 2015 karter <kolesnikov.alexs@gmail.com>
 - Updated SPEC for Sublime Text 3.
+
